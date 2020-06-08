@@ -1,0 +1,39 @@
+html{
+    touch-action: manipulation;
+    background-color: #383c3c;
+}
+h1{
+    color:white;
+    margin:auto;
+    text-align: center;
+}
+.wrapper{
+    display:inline-block;
+    background-color: #2b2b2b;
+    margin:auto;
+}
+.tetris-container{
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    left:25%;
+}
+.tetris-panel-container{
+    display:flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+}
+.tetris-panel-container p{
+    color:white;
+}
+.tetris-button-panel{
+    width:100%;
+}
+.tetris-button{
+    background-color:#80989b;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+}
