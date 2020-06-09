@@ -251,7 +251,7 @@ class Tetris {
     }
 
     fall() {
-        while (this.checkBlockMove(this.blockX, this.blockY + 1, this.currentBlock, this.blockAngle)) {
+        if (this.checkBlockMove(this.blockX, this.blockY + 1, this.currentBlock, this.blockAngle)) {
             this.blockY++;
             this.refreshStage();
         }
